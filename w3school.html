@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./w3school.css">
+</head>
+<body>
+    <div class="navbar">
+        
+    <div class="nav-left">
+        <a href="https://www.w3schools.com " class="w3-bar-item w3-button w3-hover-none w3-left w3-padding-16" title="Home" style="width:77px;">
+            <i class="fa fa-logo" style="position:relative;z-index:1;color:#04AA6D;font-size:42px!important;"></i>
+          </a>
+        
+        <p>Tutorials</p>
+        <p>Reference</p>
+        <p>Exercises</p>
+        <p>Videos</p>
+    </div>
+    <div class="nav-right">
+        <a class="w3-bar-item w3-button bar-icon-hover w3-right w3searchbtntopnav" href="javascript:void(0)" style="padding-top:24px;padding-bottom:24px;padding-left:12px;padding-right:12px;margin-right:8px" onclick="gSearch(this)" title="Search W3Schools" id="nav_search_btn"><i class="fa"></i></a>
+        <a class="w3-bar-item w3-button bar-icon-hover w3-right w3translatebtntopnav" href="javascript:void(0)" style="padding-top:24px;padding-bottom:24px;padding-left:12px;padding-right:12px" onclick="gTra(this)" title="Translate W3Schools" id="nav_translate_btn"><i class="fa"></i></a>
+        <a class="w3-bar-item w3-button bar-icon-hover w3-right w3-hide-small" style="padding-top:24px;padding-bottom:24px;padding-left:12px;padding-right:12px" href="javascript:void(0)" onmouseover="mouseoverdarkicon()" onmouseout="mouseoutofdarkicon()" onclick="changepagetheme(2)" xxonclick="changecodetheme(this)" xxtitle="Toggle Dark Code"><i class="fa"></i></a>
+        <button style="background-color: #282A35; color: #fff;" >Upgrade</button>
+        <button style="background-color: #FFC0C7!important; color: black;" >Get Certified</button>
+        <button style="background-color: #FFF4A3; color: black;">Create Website</button>
+        <button style="background-color: #4CAF50; color: #FFFFFF; width: 150px;" class="log-in">Log in</button>
+    </div>
+    </div>
+    <div class="home-main">
+        <h1>Learn to Code</h1>
+        <p>With the world's largest web developer site</p>
+      <input type="text" placeholder="Search our tutorials, e.g.HTML">
+      <div><a href="">Not Sure Where To Begin?</a></div>
+    </div>
+
+    <div class="home-main1">
+        <div class="home-main1-left">
+            <h1>HTML</h1>
+            <br>
+            <p>The language for building web pages</p>
+           <br>
+            <button style="background-color: #04AA6D;
+            color: white;">Learn HTML</button>
+            <br>
+            <button style="background-color: #FFF4A3;
+            color: black;">Video Tutorial</button>
+            <br>
+            <button style="background-color: #282A35;
+            color: white;">HTNL Reference</button>
+            <br>
+            <button style="background-color: #FFC0C7!important;
+            color: black;">Get Certified</button>
+          <br>
+
+        </div>
+        <div class="home-main1-right">
+            <img src="./photo_2023-01-16_15-44-00.jpg" alt="" style="height: 500px; width: 600px;">
+        </div>
+    </div>
+
+        <div class="home-main2">
+
+        <div class="home-main2-left">
+            <h1>CSS</h1>
+            <br>
+            <p>The language for styling web pages</p>
+           <br>
+            <button style="background-color: #04AA6D;
+            color: white;">Learn CSS</button>
+            <br>
+            <button style="background-color: #282A35;
+            color: white;">CSS Reference</button>
+            <br>
+            <button style="background-color: #FFC0C7!important;
+            color: black;">Get Certified</button>
+          <br>
+            </div>
+
+        <div class="home-main2-right">
+            <img src="./2023-01-16_17-06-54.png" alt="" style="height: 500px; width: 600px;">
+        </div>
+        </div>
+
+        <div class="home-main3">
+
+            <div class="home-main3-left">
+                <h1>JavaScript</h1>
+                <br>
+                <p>The language for programming web pages</p>
+               <br>
+                <button style="background-color: #04AA6D;
+                color: white;">Learn JavaScript</button>
+                <br>
+                <button style="background-color: white;;
+                color: #000;">JavaScript Reference</button>
+                <br>
+                <button style="background-color: #FFC0C7!important;
+                color: black;">Get Certified</button>
+              <br>
+                </div>
+    
+            <div class="home-main3-right">
+                <img src="./2023-01-16_17-40-41.png" alt="" style="height: 500px; width: 600px;">
+            </div>
+                </div>
+
+                <div class="home-main4">
+
+                    <div class="home-main4-left">
+                        <h1>Python</h1>
+                        <br>
+                        <p>A popular programming language</p>
+                       <br>
+                        <button style="background-color: #04AA6D;
+                        color: white;">Learn Python</button>
+                        <br>
+                        <button style="background-color: #282A35;
+                        color: white;">Python Reference</button>
+                        <br>
+                        <button style="background-color: #FFC0C7!important;
+                        color: black;">Get Certified</button>
+                      <br>
+                        </div>
+            
+                    <div class="home-main4-right">
+                        <img src="./2023-01-16_18-52-04.png" alt="" style="height: 500px; width: 600px;">
+                    </div>
+                    </div>
+                    <div class="home-main5">
+
+                        <div class="home-main5-left">
+                            <h1>SQL</h1>
+                            <br>
+                            <p>A language for accessing databases</p>
+                           <br>
+                            <button style="background-color: #04AA6D;
+                            color: white;">Learn SQL</button>
+                            <br>
+                            <button style="background-color: #282A35;
+                            color: white;">SQL Reference</button>
+                            <br>
+                            <button style="background-color: #FFC0C7!important;
+                            color: black;">Get Certified</button>
+                          <br>
+                            </div>
+                
+                        <div class="home-main5-right">
+                            <img src="./2023-01-16_18-58-58.png" alt="" style="height: 500px; width: 600px;">
+                        </div>
+                        </div>    
+<div class="fon-card">
+    <div class="w3-card-left">
+        <h1>PHP</h1>
+        <br>
+        <p>A web server programming language</p>
+        <br><br>
+        <button>Learn PHP</button>
+        <br>
+    </div>
+    <div class="w3-card-right">
+        <h1>jQuery</h1>
+        <br>
+        <p>A JS library for developing web pages</p>
+        <br><br>
+        <button>Learn jQuery</button>
+        <br>
+    </div>
+</div> 
+<div class="fon-card1">
+    <div class="w3-card-left1">
+        <h1>Java</h1>
+        <br>
+        <p>A programming language</p>
+        <br><br>
+        <button>Learn Java</button>
+        <br>
+    </div>
+    <div class="w3-card-right1">
+        <h1>C++</h1>
+        <br>
+        <p>A A programming language</p>
+        <br><br>
+        <button>Learn C++</button>
+        <br>
+    </div>
+</div> 
+<div class="fon-card2">
+    <div class="w3-card-left2">
+        <h1>W3.CSS</h1>
+        <br>
+        <p>A CSS framework for faster and better responsive web pages</p>
+        <br><br>
+        <button>Learn W3.CSS</button>
+        <br>
+    </div>
+    <div class="w3-card-right2">
+        <h1>Bootstrap</h1>
+        <br>
+        <p>A CSS framework for designing better web pages</p>
+        <br><br>
+        <button>Learn Bootstrap</button>
+        <br>
+    </div>
+</div>
+<div class="fon-card3">
+    <div class="w3-card-left3">
+        <h1>C</h1>
+    </div>
+    <div class="w3-card-right3">
+        <h1>#C</h1>
+    </div>
+</div>
+<div class="litle-card">
+    <div class="litle-card-r">
+<b>R</b>
+    </div>
+    <div class="litle-card-kotlin">
+<b>Kotlin</b>
+    </div>
+    <div class="litle-card-node">
+<b>Node.js</b>
+    </div>
+    <div class="litle-card-reakt">
+<b>Reakt</b>
+    </div>
+</div>
+
+<div class="litle-card1">
+    <div class="litle-card-json">
+<b>JSON</b>
+    </div>
+    <div class="litle-card-angular">
+<b>AngularJs</b>
+    </div>
+    <div class="litle-card-mysql">
+<b>MySQL.js</b>
+    </div>
+    <div class="litle-card-xml">
+<b>XML</b>
+    </div>
+</div>
+<div class="litle-card2">
+    <div class="litle-card-sass">
+<b>Sass</b>
+    </div>
+    <div class="litle-card-icons">
+<b>Icons</b>
+    </div>
+    <div class="litle-card-rwd">
+<b>RWD</b>
+    </div>
+    <div class="litle-card-graphics">
+<b>Graphics</b>
+    </div>
+</div>
+<div class="litle-card3">
+    <div class="litle-card-svg">
+<b>SVG</b>
+    </div>
+    <div class="litle-card-canvas">
+<b>Canvas</b>
+    </div>
+    <div class="litle-card-rasp">
+<b>Raspberry Pi</b>
+    </div>
+    <div class="litle-card-cyber">
+<b>Cyber Security</b>
+    </div>
+</div>
+<div class="litle-card4">
+    <div class="litle-card-colors">
+<b>Colors</b>
+    </div>
+    <div class="litle-card-git">
+<b>Git</b>
+    </div>
+    <div class="litle-card-matp">
+<b>Matplotlib</b>
+    </div>
+    <div class="litle-card-numpy">
+<b>NumPy</b>
+    </div>
+</div>
+<div class="litle-card5">
+    <div class="litle-card-pandas">
+<b>Pandas</b>
+    </div>
+    <div class="litle-card-scipy">
+<b>SciPy</b>
+    </div>
+    <div class="litle-card-asp">
+<b>ASP</b>
+    </div>
+    <div class="litle-card-access">
+<b>Accessibility</b>
+    </div>
+</div>
+<div class="litle-card6">
+    <div class="litle-card-appml">
+<b>AppML</b>
+    </div>
+    <div class="litle-card-go">
+<b>Go</b>
+    </div>
+    <div class="litle-card-typesc">
+<b>TypeScript</b>
+    </div>
+    <div class="litle-card-django">
+<b>Django</b>
+    </div>
+</div>
+<div class="litle-card7">
+    <div class="litle-card-mango">
+<b>MangoDB</b>
+    </div>
+    <div class="litle-card-statis">
+<b>Statistics</b>
+    </div>
+    <div class="litle-card-datasc">
+<b>Data Science</b>
+    </div>
+    <div class="litle-card-typing">
+<b>Typing Speed</b>
+    </div>
+</div>
+
+<div class="litle-card8">
+    <div class="litle-card-excel">
+<b>Excel</b>
+    </div>
+    <div class="litle-card-google-sh">
+<b>Google Sheets</b>
+    </div>
+</div>
+
+<div class="litle-card9">
+    <div class="litle-card-mach-lear">
+<b>Machine Learning</b>
+    </div>
+        <div class="litle-card-art-int">
+<b>Articicial Intelligence</b>
+    </div>
+</div>
+
+<div class="cod-ed">
+    <div class="cod-ed1">
+        <h1>Code Editor</h1><br>
+        <p>With our online code editor, you can edit code and view the result in your browser</p>
+    </div>
+</div>
+<div class="img22">
+    <img src="./2023-01-17_23-09-22.png" alt="">
+</div>
+
+<div class="w3school">
+    <div class="w3school1">
+        <h1>W3Schools Spaces</h1><br>
+        <p>Build your own website with W3Schools Spaces.</p>
+    </div>
+</div>
+<div class="img12">
+    <img src="./2023-01-17_23-36-12.png" alt="">
+</div>
+
+<div class="how-works">
+    <img src="./how-spaces-works3.png" alt="">
+</div>
+<div class="get-st-now">
+    <div class="get-start-now"><button>Get Start Now</button></div>
+</div>
+
+<div class="mylearning">
+<div class="mylearning1"><h1>My Learning</h1>
+    <h4>Track your progress with the free "My Learning" program here at W3Schools.</h4>
+    <h4>Log in to your account, and start earning points!</h4>
+</div>
+    <div class="myl-green"><img src="./myl-green-off.png" alt="">
+    </div>
+    <div class="sign-up-for">
+        <div class="get-start-now"><button>Sign Up for Free</button></div>
+    </div>
+</div>
+<div style="background-color: #282A35!important;color: white!important;">
+     <div class="become"><h1>Become a PRO User</h1>
+     <h3>And unlock powerful features:</h3>
+     <div>
+        <ul style="display:inline-block">
+          <li><img src="/spaces/files/check3.db67d31e.svg" style="margin-right:15px;">Browse W3Schools <strong>without ads</strong></li>
+          <li><img src="/spaces/files/check3.db67d31e.svg" style="margin-right:15px;">Website hosting (Includes <a href="https://www.w3schools.com/spaces/index.html" target="_blank">Spaces</a> PRO)</li>
+          <li><img src="/spaces/files/check3.db67d31e.svg" style="margin-right:15px;">Access to our <a href="https://www.w3schools.com/videos/index.php" target="_blank">HTML Video Tutorial</a></li>
+        </ul></div>
+        <div>
+            <div class="get-start-now"><button>Learn More</button></div>
+        </div>
+      </div>
+</div>
+<div style="    background-color: #F3ECEA;
+color: #000;">
+<div>
+    <div class="famous"><h1>Color Picker</h1>
+    <h4>W3Schools' famous color picker:</h4>
+    <a href="/colors/colors_picker.asp" class="w3-hover-opacity"><img style="width:150px;height:128px;margin-top:16px;" src="./colorpicker.png" alt="Colorpicker" loading="lazy"></a>
+</div>
+</div>
+</div>
+
+<div style="background-color: #96D4D4!important;
+color: black!important;">
+<div class="codegame">
+    <h1 style="font-family: 'Freckle Face', cursive;font-size:48px">Code Game</h1>
+    <h2 style="font-family: 'Freckle Face', cursive;">Help the Lynx collect pine cones!</h2>
+    <a href="/codegame/index.html" target="_blank" class="w3-hover-opacity"><img style="margin:16px 0;" src="./w3lynx_200.png" alt="Code Game" loading="lazy"></a>
+ <div>
+        <div class="get-start-now"><button style="background-color: #000;">Play Game</button></div>
+</div>
+</div>
+</div>
+
+<div style="    background-color: #282A35!important;
+color: white!important;">
+<div class="exper">
+    <h2>Exercises and Quizzes</h2>
+    <h4>Test your skills!</h4>
+</div>
+<div class="w3-half1">
+<div style="background-color: #04AA6D!important;
+color: white!important;" class="w3-half">
+    <p style="font-size: 30px;">Exercises</p>
+  </div>
+  <div style="background-color: #FFF4A3!important;
+  color: black!important;" class="w3-half">
+    <p style="font-size: 30px;">Quizzes</p>
+  </div>
+</div>
+</div>
+
+<div class="webtemp">
+<div><h1>Web Templates</h1>
+<h4>Browse our selection of free responsive HTML Templates</h4></div>
+<img style="width: 1000px; height: 400px;" src="./w3css_templates.jpg" alt="">
+<div>
+    <div class="get-start-now" ><button style="width: 700px; background-color: #000;">Browse Templates</button></div>
+</div>
+</div>
+
+<div style="    background-color: #282A35;
+color: #FFC0C7;">
+<div style="padding-top: 80px; padding-left: 50px;">
+<div><h1>Kickstart your career</h1>
+<h3>Get certified by completing a course</h3></div>
+<div>
+    <div><button style="border-radius: 50px;
+        font-size: 18px;
+        background-color: #04AA6D;
+        padding: 17px 55px; color: white; cursor: pointer;">Get started</button></div>
+</div>
+</div>
+</div>
+
+<div style="color: #000!important;
+background-color: #fff!important;">
+<div class="how-to-section">
+<h2 style="font-size:60px;font-weight:700" class="textsmaller">How To Section</h2>
+<h4 class="xxw3-text-dark-grey">Code snippets for HTML, CSS and JavaScript</h4>
+<h6 style="margin-top:19px;">For example, how to create a slideshow:</h6>
+</div>
+<div class="komp"><img src="./komp.png" alt="" style="width: 1000px;
+    height: 500px;"></div>
+<div class="howlearn">
+    <div class="learn-how" ><button>Learn How To</button></div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
